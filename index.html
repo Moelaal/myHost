@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <title>Hosto</title>
+</head>
+<body class="container-fluid">
+
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-tree-fill"></i> <span>Hosto</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            View More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#">Web Designing</a></li>
+                            <li><a class="dropdown-item" href="#">Android Development</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="row ">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption">
+               
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+               
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- markiting -->
+
+    <div class="row">
+      <div class="container marketing">
+
+        <div class="row m-1">
+          <div class="col-lg-4 bg-secondary p-2">
+            <i class="bi bi-hand-thumbs-up mark-icon p-2"></i>
+    
+            <h2>Secure & Reliable</h2>
+            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            
+          </div>
+            
+          <div class="col-lg-4 bg-info p-2">
+            <i class="bi bi-chat mark-icon fa-4x"></i>
+    
+            <h2>Customer support</h2>
+            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            
+          </div>
+          <!-- <div class="col-lg-4 bg-info p-2">
+            <i class="bi bi-chat mark-icon fa-4x"></i>
+            <h2>Customer support</h2>
+            <p>And lastly this, the third column of representative placeholder content.</p>
+            
+          </div> -->
+          <div class="col-lg-4 bg-primary p-2">
+            <i class="bi bi-speedometer mark-icon"></i>
+            <h2>Quick & Super Fast</h2>
+            <p>And lastly this, the third column of representative placeholder content.</p>
+            
+          </div>
+        </div>
+    </div>
+
+
+
+    <!-- pricing
+    
+      section of pricing 
+    -->
+
+    <div class="row">
+      <section class="pricing py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 heading m-2 p-2">
+              <h1>Host <span> Plans </span> &  <span> Pricing </span></h1>
+              <p>Our hosting sites here to choose from</p>
+            </div>
+          </div>
+          
+          <div class="row">
+
+            <!-- Free Tier -->
+            <div class="col-lg-3">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h3 class="card-title text-muted text-uppercase text-center">Web Hosting</h3>
+                  <h6 class="card-price text-center">$5.45<span class="period">/month</span></h6>
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>10GB</strong> Storage Space</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>15GB</strong> Bandwidth</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Ftp & Email</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Free</strong> Domain</li>
+                    
+                    
+                  
+                  </ul>
+                  <div class="d-grid">
+                    <a href="#" class="btn  btn-outline-info text-uppercase">Sign Up Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Plus Tier -->
+            <div class="col-lg-3">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Reseller Hosting</h5>
+                  <h6 class="card-price text-center">$9.45<span class="period">/month</span></h6>
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>10GB</strong> Storage Space</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>15GB</strong> Bandwidth</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Ftp & Email</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Free</strong> Domain</li>
+                    
+                  </ul>
+                  <div class="d-grid">
+                    <a href="#" class="btn  btn-outline-info text-uppercase">Sign Up Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-lg-3">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body ">
+                  <h5 class="card-title text-muted text-uppercase text-center">Vps Hosting</h5>
+                  <h6 class="card-price text-center">$12.45<span class="period">/month</span></h6>
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>10GB</strong> Storage Space</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>15GB</strong> Bandwidth</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Ftp & Email</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Free</strong> Domain</li>
+                    
+                  </ul>
+                  <div class="d-grid">
+                    <a href="#" class="btn  btn-outline-info text-uppercase">Sign Up Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Domain Names</h5>
+                  <h6 class="card-price text-center">$15.45<span class="period">/month</span></h6>
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>10GB</strong> Storage Space</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>15GB</strong> Bandwidth</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Ftp & Email</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Free</strong> Domain</li>
+                   
+                  </ul>
+                  <div class="d-grid">
+                    <a href="#" class="btn  btn-outline-info text-uppercase">Sign Up Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<!-- 
+    section features -->
+
+    <div class="row bg-light">
+      <div class="container  mt-5 mb-5">
+        <div class="row">
+          <div class="col-lg-12 headingss m-2 p-2 ">
+            <h1>Host <span> Plans </span> &  <span> Pricing </span></h1>
+            <p>Our hosting sites here to choose from</p>
+          </div>
+        </div>
+      
+      <div class="row m-0">
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+          <div class="card feat ">
+            <div class="card-body cb bg-white ">
+              <span class="badge bg-secondary">start <br> <h5>$122</h5>  /month</span>
+              <h3 class="card-title">Web hosting</h3>
+              <hr>
+              <br>
+              <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quaerat quidem aut! Iste molestias repellat molestiae labore officiis maxime alias provident laborum, ut quo qui pariatur vitae ullam, quod nobis.</p>
+              <img src="./images/COMPUTER IBOOK (2).png"  alt="">
+              <br>
+              <button class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-6 col-12 mb-4">
+          <div class="card feat">
+            <div class="card-body cb ">
+              <span class="badge bg-danger">start <br> <h5>$122</h5>  /month</span>
+              <h3 class="card-title">E-Commerce</h3>
+              <hr>
+              <br>
+              <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quaerat quidem aut! Iste molestias repellat molestiae labore officiis maxime alias provident laborum, ut quo qui pariatur vitae ullam, quod nobis.</p>
+              <img src="./images/pc.jpg"  alt="">
+              <br>
+              <button class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-6 col-12 mb-4">
+          <div class="card feat">
+            <div class="card-body cb ">
+              <span class="badge bg-info">start <br> <h5>$122</h5>  /month</span>
+              <h3 class="card-title">Domains</h3>
+              <hr>
+              <br>
+              <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quaerat quidem aut! Iste molestias repellat molestiae labore officiis maxime alias provident laborum, ut quo qui pariatur vitae ullam, quod nobis.</p>
+              <img src="images/ENERMAX.png"  alt="">
+              <br>
+              <button class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-6 col-12 mb-4">
+          <div class="card feat">
+            <div class="card-body cb ">
+              <span class="badge bg-dark">start <br> <h5>$122</h5>  /month</span>
+              <h3 class="card-title">My website</h3>
+              <hr>
+              <br>
+              <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quaerat quidem aut! Iste molestias repellat molestiae labore officiis maxime alias provident laborum, ut quo qui pariatur vitae ullam, quod nobis.</p>
+              <img src="images/Source SDK.png"  alt="">
+              <br>
+              <button class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-6 col-12 mb-4">
+          <div class="card feat">
+            <div class="card-body cb ">
+              <span class="badge bg-warning">start <br> <h5>$122</h5>  ./month</span>
+              <h3 class="card-title">Servers</h3>
+              <hr>
+              <br>
+              <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quaerat quidem aut! Iste molestias repellat molestiae labore officiis maxime alias provident laborum, ut quo qui pariatur vitae ullam, quod nobis.</p>
+              <img src="images/Network - iDisk.png"  alt="">
+              <br>
+              <button class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-6 col-12 mb-4">
+          <div class="card feat">
+            <div class="card-body cb ">
+              <span class="badge bg-success">start <br> <h5>$122</h5> /month</span>
+              <h3 class="card-title">MyWebsites Personal</h3>
+              <hr>
+              <br>
+              <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quaerat quidem aut! Iste molestias repellat molestiae labore officiis maxime alias provident laborum, ut quo qui pariatur vitae ullam, quod nobis.</p>
+              <img src="/images/Gloss PNGMicrosoft_Command_Dos_Prompt.png"  alt="">
+              <br>
+              <button class="btn btn-outline-dark">Read more</button>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- photes -->
+
+    <div class="row">
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col-lg-2 col-md-6">
+            <img src="./images/chrome.jpg" class="mx-auto contimg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <img src="./images/cpanal.jpg" class="mx-auto contimg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <img src="./images/html.jpg" class="mx-auto contimg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <img src="./images/java.jpg" class="mx-auto contimg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <img src="./images/jquery.jpg" class="mx-auto contimg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <img src="./images/javaaa.jpg" class="mx-auto contimg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- dfsdf -->
+
+    <div class="row">
+     
+
+      <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: #3e4551"
+      >
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+  <!-- Section: Links -->
+  <section class="">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Hosto</h5>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Molestiae modi cum ipsam ad, illo possimus laborum ut
+          reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
+          Reiciendis assumenda iusto sapiente inventore animi?
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Navigation</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">web hosting</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">reseller</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">features</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">VPs hosting</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">useful Links</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">proin</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">velit</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">loer</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">dolor</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Recent posts</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">home</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">features</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">about</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">blog</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Tags</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!"  class="text-white btn btn-primary">host</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white btn btn-primary">bussines</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white btn btn-primary">rate</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white btn btn-primary">server</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </section>
+  <!-- Section: Links -->
+
+  
+  
+
+  <hr class="mb-4" />
+
+  <!-- Section: Social media -->
+  <section class="mb-4 text-center">
+    <!-- Facebook -->
+    <a
+       class="btn btn-outline-light btn-floating m-1"
+       href="#!"
+       role="button"
+       ><i class="fab fa-facebook-f"></i
+      ></a>
+
+    <!-- Twitter -->
+    <a
+       class="btn btn-outline-light btn-floating m-1"
+       href="#!"
+       role="button"
+       ><i class="fab fa-twitter"></i
+      ></a>
+
+    <!-- Google -->
+    <a
+       class="btn btn-outline-light btn-floating m-1"
+       href="#!"
+       role="button"
+       ><i class="fab fa-google"></i
+      ></a>
+
+    <!-- Instagram -->
+    <a
+       class="btn btn-outline-light btn-floating m-1"
+       href="#!"
+       role="button"
+       ><i class="fab fa-instagram"></i
+      ></a>
+
+    <!-- Linkedin -->
+    <a
+       class="btn btn-outline-light btn-floating m-1"
+       href="#!"
+       role="button"
+       ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+    <!-- Github -->
+    <a
+       class="btn btn-outline-light btn-floating m-1"
+       href="#!"
+       role="button"
+       ><i class="fab fa-github"></i
+      ></a>
+  </section>
+  <!-- Section: Social media -->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div
+     class="text-center p-3"
+     style="background-color: rgba(0, 0, 0, 0.2)"
+     >
+  © 2020 Copyright
+</div>
+<!-- Copyright -->
+</footer>
+      
+    
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+</body>
+</html>
